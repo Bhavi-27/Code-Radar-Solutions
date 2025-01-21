@@ -2,9 +2,9 @@
 void main(){
     char name[30], hobby[30];
     int age;
-    fgets("%c",&name);
+    scanf("%c",&name);
     scanf("%d",&age);
-    fgets("%d",&hobby);
+    scanf("%d",&hobby);
     printf("Name: %s",name);
     printf("\nAge: %d",age);
     printf("\nHobby: %s",hobby);
