@@ -20,8 +20,5 @@ int main(){
         ans=num1/num2;
         printf("%d",ans);
     }
-    else{
-        printf("Invalid");
-    }
     return 0;
 }
