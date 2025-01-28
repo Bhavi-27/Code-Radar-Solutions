@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+    int num1, num2;
+    if(num1==num2){
+        printf("Equal");
+    }
+    else if(num1<num2){
+        printf("Second");
+    }
+    else{
+        printf("First");
+    }
+    return 0;
+}
