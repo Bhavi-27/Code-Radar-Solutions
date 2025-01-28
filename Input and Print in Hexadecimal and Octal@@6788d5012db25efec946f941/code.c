@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main(){
-    unsigned int a,b;
+    unsigned int a;
+    int b;
     scanf("%x",&a);
-    scanf("%o",&b);
-    printf("Hexadecomal: %x",a);
-    printf("Octal: %o",b);
+    scanf("%d",&b);
+    printf("Hexadecomal: %.1x",a);
+    printf("Octal: %d",b);
     reutrn 0;
 }
