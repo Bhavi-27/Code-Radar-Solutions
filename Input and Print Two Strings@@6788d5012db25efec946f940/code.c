@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-void main(){
+int main(){
     char str1[40],str2[40];
     gets(str1);
     gets(str2);
