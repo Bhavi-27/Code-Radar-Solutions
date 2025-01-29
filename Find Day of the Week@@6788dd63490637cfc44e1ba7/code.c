@@ -2,21 +2,26 @@
 int main(){
     int day;
     scanf("%d",&day);
-    switch(day){
-        case 1:
+    if(day==1){
         printf("Monday");
-        case 2:
+    }
+    else if(day==2){
         printf("Tuesday");
-        case 3:
+    }
+    else if(day==3){
         printf("Wednesday");
-        case 4:
+    }
+    else if(day==4){
         printf("Thursday");
-        case 5:
+    }
+    else if(day==5){
         printf("Friday");
-        case 6:
+    }
+    else if(day==6){
         printf("Saturday");
-        case 7:
+    }
+    else{
         printf("Sunday");
     }
-    return 0;
+        return 0;
 }
