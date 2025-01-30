@@ -2,7 +2,9 @@
 int main(){
     int num1,num2,ans;
     char ch;
-    scanf("%d %d %c",&num1,&num2,&ch);
+    scanf("%d",&num1);
+    scanf("%d",&num2);
+    scanf("%c",&ch);
     if(ch=='+'){
         ans=num1+num2;
         printf("%d",ans);
