@@ -9,7 +9,7 @@ int main(){
         printf("Digit");
     }
     else{
-        printf("Consonant");
+        printf("Special Character");
     }
     return 0;
 }
