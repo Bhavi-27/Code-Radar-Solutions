@@ -9,5 +9,8 @@ int main(){
     if(num2>num1){
         printf("No");
     }
+    if(num1==num2){
+        printf("Yes");
+    }
     return 0;
 }
