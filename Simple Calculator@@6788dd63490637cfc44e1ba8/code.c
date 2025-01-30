@@ -8,18 +8,18 @@ int main(){
     scanf("%c",&ch);
     if(ch=='+'){
         ans=num1+num2;
-        printf("%f",ans);
+        printf("%.1f",ans);
     }
     else if(ch=='-'){
         ans=num1-num2;
-        printf("%f",ans);    }
+        printf("%.1f",ans);    }
     else if(ch=='*'){
         ans=num1*num2;
-        printf("%f",ans);
+        printf("%.1f",ans);
     }
     else if(ch=='/'){
         ans=num1/num2;
-        printf("%f",ans);
+        printf("%.1f",ans);
     }
     else{
         printf("error");
