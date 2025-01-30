@@ -16,15 +16,6 @@ int main(){
         ans=num1*num2;
         printf("%d",ans);
     }
-    else if(ch=='/'){
-        if (num2=!0){
-            ans=num1/num2;
-            printf("%d",ans);
-        }
-        else{
-            printf("error");
-        }
-    }
     else{
         printf("error");
     }
