@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main(){
-    float num1,num2,ans;
+    int num1,num2;
+    float ans;
     char ch;
-    scanf("%f",&num1);
-    scanf("%f",&num2);
+    scanf("%d",&num1);
+    scanf("%d",&num2);
     scanf("%c",&ch);
     if(ch=='+'){
         ans=num1+num2;
