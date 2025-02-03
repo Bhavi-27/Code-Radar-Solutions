@@ -6,7 +6,8 @@ struct Student{
 };
 int main(){
     struct Student ob;
-    int i;
+    int i,num;
+    scanf("%d",&num);
     for(i=1;i<=num;i++){
         scanf("%d",&ob.rollno);
         scanf("%s",&ob.name);
