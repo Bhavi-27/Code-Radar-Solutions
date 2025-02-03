@@ -3,8 +3,9 @@ struct Student{
     int rollno;
     float marks;
     char name[30];
-}obj1;
+}
 int main() {
+    struct Student obj1;
     int a,i;
     scanf("%d",&a);
     for(i=1;i<=a;i++){
