@@ -11,8 +11,8 @@ int main(){
     for(i=1;i<=num;i++){
         scanf("%d",&ob.rollno);
         scanf("%s",&ob.name);
-        scanf("%.2f",&ob.marks);
-        printf("Roll Number: %d, Name: %s, Marks: %f\n",ob.rollno, ob.name, ob.marks);
+        scanf("%f",&ob.marks);
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",ob.rollno, ob.name, ob.marks);
     }
     return 0;
 }
