@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-    int i,j,c,num,sp=30;
+    int i,j,c,num,sp=0;
     scanf("%d",&num);
     for(i=1;i<=num;i++){
-        for(c=1;c<=sp;c++){
+        for(c=1;c<=num=i;++c){
             printf(" ");
-            sp=sp-2;
+            ++sp;
         }
         for(j=1;j<=i;j++){
             printf("*");
