@@ -2,7 +2,7 @@
 #include <string.h>
 int main(){
     char s[30];
-    gets(s);
+    fgets(s,30, stdin);
     strrev(s);
     printf("%s",&s);
     return 0;
