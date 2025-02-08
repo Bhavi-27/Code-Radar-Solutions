@@ -2,8 +2,8 @@
 #include <string.h>
 int main(){
     char str1[25], str2[25];
-    gets(str1);
-    gets(str2);
+    scanf("%s",&str1);
+    gets("%s",&str2);
     strcat(str1,str2);
     printf("%s",str1);
     printf("%s",str2);
