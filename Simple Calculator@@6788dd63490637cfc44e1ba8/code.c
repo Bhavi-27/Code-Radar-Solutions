@@ -17,7 +17,7 @@ int main(){
         printf("%d",ans);
     }
     else if(ch=='/'){
-        if (num2=!0){
+        if (num2!=0){
             ans=num1/num2;
             printf("%d",ans);
         }
