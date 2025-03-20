@@ -5,7 +5,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d\n",&arr[i]);
     }
-    for(i=0;i<n;i++){
+    for(i=1;i<n-1;i++){
         if(arr[i-1]<arr[i]>arr[i+1]){
             num=arr[i];
         }
