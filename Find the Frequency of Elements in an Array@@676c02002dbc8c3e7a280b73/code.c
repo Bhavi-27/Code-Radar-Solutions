@@ -14,7 +14,7 @@ int main(){
             }
         }
         printf("%d %d\n",arr[i],count);
-        }
+    }
     }
     return 0;
 }
