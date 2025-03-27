@@ -7,7 +7,7 @@ int main(){
             printf(" ");
             ++sp;
         }
-        for(k=1;k<=(i*2)-1;k++){
+        for(k=1;k<=i;k++){
             printf("%d",num++);
         }
         num=1;
