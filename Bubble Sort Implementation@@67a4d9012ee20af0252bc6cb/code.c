@@ -11,16 +11,16 @@ int bubbleSort(int arr[],int n){
     }
 }
 int printArray(int arr[],int n){
-    for(i=0;i<n;i++){
-        printf("%d",arr[i]);
+    for(l=0;l<n;l++){
+        printf("%d",arr[l]);
     }
 }
 int main(){
-    int n,i,j;
+    int n,i,j,k,l;
     scanf("%d",&n);
     int arr[100];
-    for(int i=0; i<n; i++){
-        scanf("%d",&arr[i]);
+    for(int k=0; k<n; k++){
+        scanf("%d",&arr[k]);
     }
     bubbleSort(arr,n);
     printArray(arr,n);
