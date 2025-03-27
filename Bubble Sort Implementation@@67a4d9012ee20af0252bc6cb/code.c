@@ -16,7 +16,7 @@ int printArray(int arr[],int n){
     }
 }
 int main(){
-    int n;
+    int n,i,j;
     scanf("%d",&n);
     int arr[100];
     for(int i=0; i<n; i++){
