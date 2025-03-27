@@ -8,7 +8,7 @@ int main(){
             ++sp;
         }
         for(k=1;k<=i;k++){
-            printf("%d",num++);
+            printf("%d ",num++);
         }
         num=1;
         printf("\n");
