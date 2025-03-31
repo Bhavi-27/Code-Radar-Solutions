@@ -15,5 +15,4 @@ printArray(int arr[],int n){
     for(int k=0;k<n;k++){
         printf("%d",&arr[k]);
     }
-    return arr[];
 }
