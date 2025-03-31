@@ -16,14 +16,3 @@ printArray(arr[],n){
         printf("%d",&arr[i]);
     }
 }
-int main(){
-    int n,i,j,n;
-    scanf("%d",&n);
-    int arr[n];
-    for(i=0; i<n; i++){
-        scanf("%d",&arr[i]);
-    }
-    bubbleSort(arr, n);
-    printArray(arr,n);
-    return 0;
-}
