@@ -1,4 +1,4 @@
-int isPrime(num){
+int isPrime(int num){
     if(num==1){
         return 0;
     }
@@ -9,11 +9,11 @@ int isPrime(num){
                 sum++;
             }
         }
-    }
     if(sum>0){
             return 0;
         }
         else{
             return 1;
         }
+    }
 }  
