@@ -4,13 +4,13 @@ int isPrime(num){
     }
     else{
         for(int i=0;i<num;i++){
-            int num=0;
+            int sum=0;
             if(num%i==0){
-                num++;
+                sum++;
             }
         }
     }
-    if(num>0){
+    if(sum>0){
             return 0;
         }
         else{
