@@ -1,4 +1,4 @@
-selectionSort(int arr[], int n){
+int selectionSort(int arr[], int n){
     int min_term;
     for(int i=0;i<n;i++){
         min_term=i;
@@ -12,7 +12,7 @@ selectionSort(int arr[], int n){
         arr[min_term]=temp;
     }
 }
-printArray(int arr[], int n){
+int printArray(int arr[], int n){
     for(int i=0;i<n;i++){
         printf("%d",&arr[i]);
     }
