@@ -18,7 +18,7 @@ int main(){
             free[i]=count;
         }
     }
-    for(i=0;i<num;i++){
+    for(i=0;i<n;i++){
         if(count!=0){
             printf("%d : %d",arr[i],free[i]);
         }
