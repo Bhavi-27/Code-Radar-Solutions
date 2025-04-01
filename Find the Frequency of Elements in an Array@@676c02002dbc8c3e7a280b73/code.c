@@ -20,7 +20,7 @@ int main(){
     }
     for(i=0;i<n;i++){
         if(count!=0){
-            printf("%d : %d",arr[i],free[i]);
+            printf("%d %d",arr[i],free[i]);
         }
     }
     return 0;
