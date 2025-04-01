@@ -1,20 +1,27 @@
 #include <stdio.h>
 int main(){
-    int n,arr[100],i,j,count=1,arra[100];
+    int arr[100],free[100],i,j,n,count;
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
+        free[i]=-1;
     }
     for(i=0;i<n;i++){
-        if(arra[i]=0){
+        count=0;
         for(j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
-                arra[j]=1;
+                free[j]=0;
             }
         }
-        printf("%d %d\n",arr[i],count);
+        if(count!=0){
+            free[i]=count;
+        }
     }
+    for(i=0;i<num;i++){
+        if(count!=0){
+            printf("%d : %d",arr[i],free[i]);
+        }
     }
     return 0;
 }
