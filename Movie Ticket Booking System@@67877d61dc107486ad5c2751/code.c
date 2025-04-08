@@ -1,6 +1,6 @@
 #include <stdio.h>
 struct MovieTicket{
-    char movie_name,ticket_type;
+    char movie_name[100],ticket_type[100];
     int ticket_price;
 }obj2;
 int main(){
