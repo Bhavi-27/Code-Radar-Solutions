@@ -9,8 +9,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%s",&obj2.movie_name);
         scanf("%s",&obj2.ticket_type);
-        scanf("%d",&obj2.ticket_price);
-        printf("%s: %f,",obj2.ticket_type,obj2.ticket_price);
+        scanf("%f",&obj2.ticket_price);
+        printf("%s: %.2f,",obj2.ticket_type,obj2.ticket_price);
     }
     return 0;
 }
