@@ -1,7 +1,7 @@
 #include <stdio.h>
 struct MovieTicket{
     char movie_name[100],ticket_type[100];
-    int ticket_price;
+    float ticket_price;
 }obj2;
 int main(){
     int n;
@@ -10,7 +10,7 @@ int main(){
         scanf("%s",&obj2.movie_name);
         scanf("%s",&obj2.ticket_type);
         scanf("%d",&obj2.ticket_price);
-        printf("%s: %d,",obj2.ticket_type,obj2.ticket_price);
+        printf("%s: %f,",obj2.ticket_type,obj2.ticket_price);
     }
     return 0;
 }
