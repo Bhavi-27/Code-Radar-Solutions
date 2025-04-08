@@ -10,7 +10,7 @@ int main(){
         scanf("%s",&obj2.movie_name);
         scanf("%s",&obj2.ticket_type);
         scanf("%d",&obj2.ticket_price);
-        printf("%s: %d,",obj2.ticket_type,ticket_price);
+        printf("%s: %d,",obj2.ticket_type,obj2.ticket_price);
     }
     return 0;
 }
