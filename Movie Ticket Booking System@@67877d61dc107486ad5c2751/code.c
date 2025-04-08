@@ -11,7 +11,7 @@ int main(){
         scanf("%s",&obj2.ticket_type);
         scanf("%d",&obj2.ticket_price);
     }
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         printf("%s: %d",obj2.ticket_type);
     }
     return 0;
