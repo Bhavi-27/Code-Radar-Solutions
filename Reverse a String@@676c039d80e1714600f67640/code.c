@@ -5,7 +5,7 @@ int main(){
     int length;
     length=strlen(st);
     for(int i=length;i>0;i--){
-        printf("%s",st);
+        printf("%s",st[i]);
     }
     return 0;
 }
