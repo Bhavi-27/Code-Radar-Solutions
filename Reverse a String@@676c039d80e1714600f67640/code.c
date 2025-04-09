@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char s[30];
-    gets(s);
-    printf("%s",strrev(s));
+    char st[100];
+    int length;
+    length=strlen(st);
+    for(int i=length;i>0;i--){
+        printf("%s",st);
+    }
     return 0;
 }
