@@ -22,6 +22,13 @@ int main(){
             max=j+1;
         }
         }
-        printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",the[j].roll_no,the[j].name,the[j].marks);
+        for(k=0;k<n;k++){
+            if(k==j){
+                printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",the[j].roll_no,the[j].name,the[j].marks);
+            }
+            else{
+                continue;
+            }
+        }
         return 0;
     }
