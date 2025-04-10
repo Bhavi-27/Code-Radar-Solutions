@@ -3,18 +3,19 @@ struct Student{
     int roll_no;
     char name[30];
     float marks;
-}the[n];
+};
 int main(){
     int n;
+    float avg,sum=0;
     scanf("%d",&n);
+    struct Student the[n];
     for(int i=0;i<n;i++){
         scanf("%d",&the[i].roll_no);
         scanf("%s",&the[i].name);
         scanf("%f",&the[i].marks);
+        sum+=the[i].marks;
     }
-    for(int j=0;j<n;j++){
-        int avg=0;
-        avg= the[i].marks+avg;
-    }
+    avg=sum/n;
+    printf("%f",avg);
     return 0;
 }
