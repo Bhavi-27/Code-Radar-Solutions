@@ -5,7 +5,7 @@ struct Student{
     float marks;
 };
 int main(){
-    int n;
+    int n,j;
     float max;
     scanf("%d",&n);
     struct Student the[n];
@@ -14,7 +14,7 @@ int main(){
         scanf("%s",&the[i].name);
         scanf("%f",&the[i].marks);
     }
-    for(int j=0;j<n;j++){
+    for(j=0;j<n;j++){
         if(the[j].marks>the[j+1].marks){
             max=j;
         }
