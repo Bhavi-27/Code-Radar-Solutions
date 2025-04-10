@@ -21,8 +21,7 @@ int main(){
         else{
             max=j+1;
         }
-    }
+        }
         printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",the[j].roll_no,the[j].name,the[j].marks);
         return 0;
     }
-}
