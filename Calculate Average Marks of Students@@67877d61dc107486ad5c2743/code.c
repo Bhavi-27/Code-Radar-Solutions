@@ -1,4 +1,4 @@
-#incude <stdio.h>
+#include <stdio.h>
 struct Student{
     int roll_no;
     char name[30];
