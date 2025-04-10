@@ -22,9 +22,9 @@ int main(){
             max=j+1;
         }
         }
-        for(k=0;k<n;k++){
+        for(int k=0;k<n;k++){
             if(k==j){
-                printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",the[j].roll_no,the[j].name,the[j].marks);
+                printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",the[k].roll_no,the[k].name,the[k].marks);
             }
             else{
                 continue;
